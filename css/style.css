@@ -69,7 +69,7 @@ h1, h2, h3, h4{
 .info-video{
     width: calc(100% - 15%);
     float: left;
-    padding: 0 10px;
+    padding: 2px 10px;
 }
 
 .riga{
