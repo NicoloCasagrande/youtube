@@ -39,12 +39,34 @@ body{
     color: white;
 }
 
-h1, h2, h3, h4{
-    color: lightblue;
+h1{
+    color: red;
+    font-weight: bold;
+}
+
+.testo{
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+p{
+    color: lightgray;
 }
 
  /*------------------
     /TYPOGRAPHY 
+--------------------*/
+
+ /*------------------
+    HEADER
+--------------------*/
+
+header{
+    text-align: center;
+}
+
+ /*------------------
+    /HEADER
 --------------------*/
 
  /*------------------
