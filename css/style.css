@@ -1,0 +1,80 @@
+/*-----------------
+    RESET 
+ -----------------*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+/*-----------------
+    /RESET 
+ -----------------*/
+
+ /*-----------------
+    COMMON 
+ -----------------*/
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+body{
+    background-color: #171717;
+}
+  /*-----------------
+    /COMMON 
+ -----------------*/
+
+ /*------------------
+    TYPOGRAPHY 
+--------------------*/
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1, h2, h3, h4{
+    color: aliceblue;
+}
+
+ /*------------------
+    /TYPOGRAPHY 
+--------------------*/
+
+ /*------------------
+    MAIN
+--------------------*/
+.col-video{
+    width: calc(25% - 20px);
+    float: left;
+    margin: 10px 10px;
+}
+
+.anteprima{
+    width: 100%;
+    display: block;
+}
+
+.logo{
+    width: 15%;
+    float: left;
+}
+
+.info-video{
+    width: calc(100% - 15%);
+    float: left;
+    padding: 0 10px;
+}
+
+.riga{
+    padding: 10px 5px;
+}
+ /*------------------
+    /MAIN
+--------------------*/
